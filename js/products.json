@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "image": "./assets/mouse.png",
+    "name": "Phantom Pro Gaming Mouse",
+    "description": "Ultralight muis met 26.000 DPI voor pixel-perfecte nauwkeurigheid.",
+    "specifications": [
+      "Sensor: PixArt 3395 optisch, tot 26.000 DPI",
+      "Gewicht: 58g ultralight honeycomb-behuizing",
+      "Polling rate: 1000Hz (tot 8000Hz met firmware-update)",
+      "Verbinding: USB-C bedraad + 2,4GHz draadloos",
+      "RGB: Per zone aanpasbare verlichting via NexusGear software",
+      "Batterijduur: Tot 70 uur draadloos gebruik",
+      "Compatibiliteit: Windows, macOS, Linux"
+    ],
+    "price": 79.99
+  },
+  {
+    "id": 2,
+    "image": "./assets/keyboard.png",
+    "name": "Apex TKL Mechanisch Toetsenbord",
+    "description": "Hot-swappable toetsenbord met volledige per-toets RGB-verlichting.",
+    "specifications": [
+      "Layout: Tenkeyless (TKL), 87 toetsen",
+      "Switches: Hot-swappable (compatibel met MX-stijl switches)",
+      "Standaardswitches: NexusGear Red Linear (vooraf gesmeerd)",
+      "Keycaps: Double-shot PBT, shine-through opdruk",
+      "Verbinding: Afneembare USB-C kabel",
+      "RGB: Volledige per-toets RGB met 16,8 miljoen kleuren",
+      "Behuizing: Aluminium bovenplaat, polycarbonaat basis"
+    ],
+    "price": 119.99
+  },
+  {
+    "id": 3,
+    "image": "./assets/Headset.png",
+    "name": "Vortex 7.1 Gaming Headset",
+    "description": "Meeslepend surround sound headset met ruisonderdrukkende microfoon.",
+    "specifications": [
+      "Drivers: 50mm neodymium magneet drivers",
+      "Geluid: Virtueel 7.1 surround sound",
+      "Microfoon: Afneembaar, cardioïde ruisonderdrukking",
+      "Verbinding: USB + 3,5mm jack (beide inbegrepen)",
+      "Gewicht: 285g",
+      "Oorkussens: Memory foam met kunstleren bekleding",
+      "Compatibiliteit: PC, PlayStation, Xbox, Nintendo Switch"
+    ],
+    "price": 89.99
+  },
+  {
+    "id": 4,
+    "image": "./assets/chair.png",
+    "name": "Titan Pro Gaming Chair",
+    "description": "Ergonomische gamingstoel met 4D armleuningen en 165° kanteling.",
+    "specifications": [
+      "Materiaal: Ademend PU-leer met mesh-zijpanelen",
+      "Rugsteun: Verstelbaar van 90° tot 165° kanteling",
+      "Armleuningen: 4D verstelbaar (hoogte, diepte, breedte, hoek)",
+      "Vulling: Koudschuim met hoge dichtheid",
+      "Maximaal draagvermogen: 150 kg",
+      "Hoogte instelling: Gaslift klasse 4, 46-54 cm zithoogte",
+      "Inclusief: Nekkussen en lendenkussen"
+    ],
+    "price": 299.99
+  },
+  {
+    "id": 5,
+    "image": "./assets/deskmat.png",
+    "name": "StealthPad XL Deskmat",
+    "description": "Extra groot bureaumat met antislipbodem en genaaide randen.",
+    "specifications": [
+      "Afmetingen: 900 x 400 x 4mm",
+      "Oppervlak: Fijngeweven stof voor optimale muistracking",
+      "Onderkant: Antislip rubberen basis",
+      "Randen: Genaaide randen voor langdurige duurzaamheid",
+      "Dikte: 4mm comfortabele demping",
+      "Ontwerp: Matte zwart met subtiel NexusGear-logo",
+      "Onderhoud: Machinewasbaar op 30°C"
+    ],
+    "price": 34.99
+  },
+  {
+    "id": 6,
+    "image": "./assets/monitor.png",
+    "name": "Nova 27\" Gaming Monitor",
+    "description": "QHD IPS-monitor met 165Hz en 1ms reactietijd voor vloeiend gameplay.",
+    "specifications": [
+      "Schermgrootte: 27 inch IPS-paneel",
+      "Resolutie: 2560 x 1440 (QHD / 1440p)",
+      "Verversingsfrequentie: 165Hz",
+      "Reactietijd: 1ms GtG",
+      "HDR: HDR400 ondersteuning",
+      "Aansluitingen: 2x HDMI 2.0, 1x DisplayPort 1.4, 2x USB-A hub",
+      "Compatibiliteit: AMD FreeSync Premium, G-Sync Compatible"
+    ],
+    "price": 379.99
+  }
+]

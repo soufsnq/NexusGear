@@ -1,0 +1,117 @@
+/* Backlink */
+.back-link,
+.terug-link {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 0.85rem;
+    color: var(--primary-light);
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+.back-link:hover,
+.terug-link:hover {
+    color: var(--primary-color);
+}
+
+/* Product title */
+.product-detail h1 {
+    font-size: 1.8rem;
+    color: var(--primary-light);
+    margin-bottom: 12px;
+}
+
+/* Product image */
+.product-detail figure img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 8px;
+}
+
+.product-detail figcaption {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* description */
+.description,
+.beschrijving {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+/* Specifications title */
+.product-detail h2 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Specifications list */
+.specifications,
+.specificaties {
+    margin-bottom: 24px;
+}
+
+.specifications li,
+.specificaties li {
+    font-size: 1.3rem;
+    padding: 7px 12px;
+    margin-bottom: 6px;
+    background-color: var(--background-alt);
+    border-left: 3px solid var(--primary-color);
+}
+
+/* Product price */
+.product-price {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--secondary-light);
+    margin-bottom: 20px;
+}
+
+/* Action buttons */
+.product-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (min-width: 1024px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 380px 1fr;
+        grid-template-areas:
+            "terug  tekst"
+            "foto   tekst"
+            "foto   tekst";
+        gap: 16px 48px;
+        align-items: start;
+        padding: 40px;
+    }
+
+    main .back-link,
+    main .terug-link        { grid-area: terug; font-size: large; text-decoration: underline;}
+
+    /* Foto links */
+    main .product-detail figure { grid-area: foto;}
+
+    /* Alle tekst rechts */
+    main .product-detail h1,
+    main .product-detail .description,
+    main .product-detail .beschrijving,
+    main .product-detail h2,
+    main .product-detail .specifications,
+    main .product-detail .specificaties,
+    main .product-detail .product-price,
+    main .product-detail .product-actions {
+        grid-area: tekst;
+    }
+
+    /* Knoppen */
+    .product-actions {
+        flex-direction: row;
+    }
+}

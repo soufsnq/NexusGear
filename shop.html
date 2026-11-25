@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - NexusGear</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/shop.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="assets/logo.svg" alt="NexusGear Logo">
+        </a>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Zoeken...">
+            <button>&#128269;</button>
+        </div>
+    </header>
+    
+    <main>
+        
+        <aside class="sidebar">
+
+            <div class="cart-box">
+                <h2>&#128722; Winkelmandje</h2>
+                <table>
+                    <tbody id="cart-list">
+                        <tr><td colspan="3">Je winkelmandje is leeg.</td></tr>
+                    </tbody>
+                </table>
+                <p class="cart-total">Totaal: <span id="cart-total">&euro;0,00</span></p>
+                <a href="#" class="btn">Afrekenen</a>
+            </div>
+
+            <div class="wishlist-box">
+                <h2>❤️ Wishlist</h2>
+                <table>
+                    <tbody id="wishlist-list">
+                        <tr><td colspan="3">Je wishlist is leeg.</td></tr>
+                    </tbody>
+                </table>
+                <p class="cart-total">Totaal: <span id="wishlist-total">&euro;0,00</span></p>
+            </div>
+
+        </aside>
+
+        <section class="products">
+            <h2 class="product-title">Onze producten</h2>
+
+            <section class="product-list">
+                <article class="product-card">
+                    <div class="product-img" style="background-image: url(./assets/mouse.png);">
+                        <span class="heart">❤️</span>
+                        <button class="btn-cart">Toevoegen aan winkelmandje</button>
+                    </div>
+                    <div class="product-info">
+                        <h3><a href="product-detail.html">Phantom Pro Gaming Mouse</a></h3>
+                        <span class="price">&euro;79,99</span>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-img" style="background-image: url(./assets/keyboard.png);">
+                        <span class="heart">❤️</span>
+                        <button class="btn-cart">Toevoegen aan winkelmandje</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Apex TKL Mechanisch Toetsenbord</h3>
+                        <span class="price">&euro;119,99</span>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-img" style="background-image: url(./assets/Headset.png);">
+                        <span class="heart">❤️</span>
+                        <button class="btn-cart">Toevoegen aan winkelmandje</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Vortex 7.1 Gaming Headset</h3>
+                        <span class="price">&euro;89,99</span>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-img" style="background-image: url(./assets/chair.png);">
+                        <span class="heart">❤️</span>
+                        <button class="btn-cart">Toevoegen aan winkelmandje</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Titan Pro Gaming Chair</h3>
+                        <span class="price">&euro;299,99</span>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-img" style="background-image: url(./assets/deskmat.png);">
+                        <span class="heart">❤️</span>
+                        <button class="btn-cart">Toevoegen aan winkelmandje</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>StealthPad XL Deskmat</h3>
+                        <span class="price">&euro;39,99</span>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-img" style="background-image: url(./assets/monitor.png);">
+                        <span class="heart">❤️</span>
+                        <button class="btn-cart">Toevoegen aan winkelmandje</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>StealthPad XL Deskmat</h3>
+                        <span class="price">&euro;39,99</span>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-img" style="background-image: url(./assets/monitor.png);">
+                        <span class="heart">❤️</span>
+                        <button class="btn-cart">Toevoegen aan winkelmandje</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Nova 27" Gaming Monitor</h3>
+                        <span class="price">&euro;379,99</span>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+    </main>
+
+     <footer>
+        <p>&copy; 2026 NexusGear &mdash; Webdesign &amp; ontwikkeling door Soufiane</p>
+    </footer>
+
+</body>
+<script src="js/shop.js"></script>
+</html>
